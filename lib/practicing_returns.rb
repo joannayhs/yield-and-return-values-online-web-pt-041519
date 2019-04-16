@@ -8,7 +8,7 @@ def hello(array)
     yield(array[i])
     i += 1
   end
-  colletion
+  collection
 end
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
